@@ -12,13 +12,7 @@ a {
 
 ul {
     list-style: none;
-    padding-inline-start: 0;
-    
-}
-
-section {
-    padding-top: 120px;
-    padding-bottom: 120px; 
+    padding-inline-start: 0;   
 }
 
 img {
@@ -26,6 +20,12 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.nav-section {
+    padding-top: 120px;
+    padding-bottom: 120px; 
+}
+
 .container {
     width: 1158px;  
     margin: 0 auto;
