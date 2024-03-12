@@ -94,7 +94,7 @@ background-size: cover; */
     text-transform: uppercase;
     color: #404bbf;
     margin-right: 76px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .head-nav-tip {
     font-weight: 500;
@@ -110,7 +110,8 @@ background-size: cover; */
     line-height: 1.5;
     color: #2e2f42;
     letter-spacing: 0.02em; 
-    position: relative;   
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .head-nav:hover,
@@ -454,7 +455,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-top: none;
 }
 
-.border-section-four:hover {
+.list-item:hover {
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
