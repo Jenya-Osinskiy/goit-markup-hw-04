@@ -116,13 +116,13 @@ background-size: cover; */
     border-radius: 2px;
     background-color: #404bbf;
     content: "";
-    transform: translateY(140%);
+    transform: translateY(600%);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     position: absolute;
     left: 0;
     bottom: -1px;
-    z-index: -1;
+    
 }
 
 .item-nav {
